@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<htmll>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Code Review - Newsletter signup</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1>The CODE REVIEW</h1>
+        <h2>Signup for our newsletter</h2>
+        <p>Get the latest news on how our code is doing right in your inbox</p>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Contact Information</legend>
+        
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email Address</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="phone">Phone Number</label>
+          <input type="phone number" id="phone" name="user_phone">
+
+          <label for="street">Street Address</label>
+          <input type="address" id="street" name="user_street">
+
+          <label for="city">City</label>
+          <input type="address" id="city" name="user_city">
+
+          <label for="state">State</label>
+          <select id="state" name="user_state"></select>
+
+          <label for="zip">Zip Code</label>
+          <input type="address" id="zip" name="user_zip">
+          
+        </fieldset>
+        
+        <fieldset>
+          
+          <legend><span class="number">2</span> Newsletter</legend>
+          
+          <p>Select the newsletters you would like to recieve</p>
+          <label for="newsletter">Job role:</label>
+          <select id="newsletter" name="user_newsletter">
+              <option value="HTML">HTML News</option>
+              <option value="CSS">CSS News</option>
+              <option value="Javascript">Javascript News</option>
+          </select>
+
+          <label for="other">Other topics you would like to hear</label>
+          <textarea id="other" name="user_othertopics"></textarea>
+          
+        </fieldset>
+        
+        <button type="submit">Sign up</button>
+          
+      </form>
+    
+  </body>
+</html>
